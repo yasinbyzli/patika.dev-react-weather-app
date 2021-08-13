@@ -19,6 +19,7 @@ const Header = () => {
                         <option  
                             key={city.plaka} 
                             value={JSON.stringify(city)}
+                            selected={city.plaka == 34}
                         >
                             {city.il_adi}
                         </option>

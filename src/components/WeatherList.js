@@ -3,11 +3,7 @@ import { useWeather } from '../context/WeatherContext'
 import WeatherCard from './WeatherCard'
 
 const WeatherList = () => {
-
     const {data} = useWeather();
-    
-    console.log(data)
-
     return (
         <ul>
             {

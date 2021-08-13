@@ -29,7 +29,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
             </div>
             <div className="card-body">
                 {
-                    main === "Rain" && (<svg class="icon icon-vgradient-rain" viewBox="-46 0 512 512" aria-labelledby="rainy-weather-icon">
+                    main === "Rain" && (<svg className="icon icon-vgradient-rain" viewBox="-46 0 512 512" aria-labelledby="rainy-weather-icon">
                         <linearGradient id="gradient-vertical-rain" x2="0" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop-1)" />
                             <stop offset="100%" stop-color="var(--color-stop-2)" />
@@ -43,7 +43,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
                 }
 
                 {
-                    main === "Clear" && (<svg class="icon icon-vgradient-sunny" viewBox="0 0 302.4 302.4" aria-labelledby="sunny-weather-icon">
+                    main === "Clear" && (<svg className="icon icon-vgradient-sunny" viewBox="0 0 302.4 302.4" aria-labelledby="sunny-weather-icon">
                         <linearGradient id="gradient-vertical-sunny" x2="0" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop-1)" />
                             <stop offset="100%" stop-color="var(--color-stop-2)" />
@@ -105,7 +105,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
 
 
                 {
-                    main === "Clouds" && (<svg class="icon icon-vgradient-cloudy" viewBox="0 -16 512.00029 512" aria-labelledby="cloudy-weather-icon">
+                    main === "Clouds" && (<svg className="icon icon-vgradient-cloudy" viewBox="0 -16 512.00029 512" aria-labelledby="cloudy-weather-icon">
                         <title id="cloudy-weather-icon">Partly Cloudy</title>
                         <linearGradient id="gradient-vertical-cloudy" x2="0" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop-1)" />
@@ -118,7 +118,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
                 }
 
                 {
-                    main === "Snow" && (<svg class="icon icon-vgradient-snow" viewBox="0 0 34.875 34.876" aria-labelledby="snowy-weather-icon">
+                    main === "Snow" && (<svg className="icon icon-vgradient-snow" viewBox="0 0 34.875 34.876" aria-labelledby="snowy-weather-icon">
 
                         <linearGradient id="gradient-vertical-snow" x2="0" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop-1)" />
@@ -179,7 +179,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
 
                 {
                     main === "Thunderstorm" && (
-                        <svg class="icon icon-vgradient-stromy" viewBox="0 0 508 508" aria-labelledby="stromy-weather-icon">
+                        <svg className="icon icon-vgradient-stromy" viewBox="0 0 508 508" aria-labelledby="stromy-weather-icon">
 
                             <linearGradient id="gradient-vertical-stromy" x2="0" y2="1">
                                 <stop offset="0%" stop-color="var(--color-stop-1)" />
@@ -209,7 +209,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
 
 
                 {main === "Drizzle" && (
-                    <svg class="icon icon-vgradient-rain" viewBox="-46 0 512 512" aria-labelledby="rainy-weather-icon">
+                    <svg className="icon icon-vgradient-rain" viewBox="-46 0 512 512" aria-labelledby="rainy-weather-icon">
                         <linearGradient id="gradient-vertical-rain" x2="0" y2="1">
                             <stop offset="0%" stop-color="var(--color-stop-1)" />
                             <stop offset="100%" stop-color="var(--color-stop-2)" />
@@ -250,7 +250,7 @@ const WeatherCard = ({ temp, dt, humidity, wind, weather }) => {
                         <span> {wind} km/h </span>
                     </div>
                     <div className="footer-left-item">
-                        <svg class="footer-icon" viewBox="0 0 510.684 510.684" style={{ marginRight: "13px" }}>
+                        <svg className="footer-icon" viewBox="0 0 510.684 510.684" style={{ marginRight: "13px" }}>
                             <g>
                                 <g>
                                     <path d="m199.242 439.486c-49.257-15.316-82.352-60.297-82.352-111.931 0-25.238 7.901-49.283 22.85-69.536.341-.462.649-.967.906-1.481 2.47-4.939.464-10.938-4.476-13.408-4.471-2.239-9.819-.801-12.625 3.153-17.437 23.688-26.654 51.788-26.654 81.272 0 29.858 9.428 58.247 27.264 82.095 17.24 23.051 41.797 40.43 69.149 48.934.989.308 1.989.454 2.972.454 4.263 0 8.214-2.749 9.546-7.034 1.64-5.274-1.306-10.878-6.58-12.518z" />

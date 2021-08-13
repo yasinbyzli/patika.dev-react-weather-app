@@ -191,3 +191,10 @@ ul .card {
   --color-stop-1: #4e54c8;
   --color-stop-2: #8f94fb;
 }
+
+/* loading */
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
