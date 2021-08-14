@@ -2,7 +2,7 @@
 # React + Context Weather App
 
 <p align="center">
-  <img src="./src/assets/screenshot.png">
+  <img src="./src/assets/screenshot.PNG">
 <p>
 
 ## Gereksinimler
